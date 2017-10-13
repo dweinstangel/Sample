@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{EBE695DA-6193-9979-08A2-B4DE54F7E179}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\5MinuteGUI\Scripts\Audio\AudioVolume.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Audio\ClickEvent.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Audio\ClickEvents.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Audio\Music.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Menu\ButtonToggle.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Menu\GameMenu.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Menu\LevelButton.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Menu\LevelSelect.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Menu\MainMenu.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Menu\OptionsMenu.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Misc\Constants.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Misc\DisableIfNoNextLevel.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Misc\LevelUnlocker.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Misc\Rotator.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Splash\BaseImage.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Splash\FadeScript.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Splash\SplashImage.cs" />
+     <Compile Include="Assets\5MinuteGUI\Scripts\Splash\SplashImages.cs" />
+     <Compile Include="Assets\5MinuteGUI\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\Baby\Scripts\Arrive.cs" />
+     <Compile Include="Assets\Baby\Scripts\BabyController2.cs" />
+     <Compile Include="Assets\Baby\Scripts\Baby_Spawner1.cs" />
+     <Compile Include="Assets\Baby\Scripts\CharacterInputScript.cs" />
+     <Compile Include="Assets\Baby\Scripts\CharacterScript.cs" />
+     <Compile Include="Assets\Baby\Scripts\ControlGUIScript.cs" />
+     <Compile Include="Assets\Baby\Scripts\Evade.cs" />
+     <Compile Include="Assets\Baby\Scripts\Flee.cs" />
+     <Compile Include="Assets\Baby\Scripts\Flock.cs" />
+     <Compile Include="Assets\Baby\Scripts\FollowPath.cs" />
+     <Compile Include="Assets\Baby\Scripts\MoveToExit.cs" />
+     <Compile Include="Assets\Baby\Scripts\Music_Slider.cs" />
+     <Compile Include="Assets\Baby\Scripts\PlayerTouchAction.cs" />
+     <Compile Include="Assets\Baby\Scripts\Pursue.cs" />
+     <Compile Include="Assets\Baby\Scripts\Seek.cs" />
+     <Compile Include="Assets\Baby\Scripts\SpawnViewer.cs" />
+     <Compile Include="Assets\Baby\Scripts\SteeringAgent.cs" />
+     <Compile Include="Assets\Baby\Scripts\SteeringBehaviour.cs" />
+     <Compile Include="Assets\Baby\Scripts\babymove.cs" />
+     <Compile Include="Assets\Baby\Scripts\babymove2.cs" />
+     <Compile Include="Assets\Baby\Scripts\banner_control.cs" />
+     <Compile Include="Assets\Baby\Scripts\detect_objects.cs" />
+     <Compile Include="Assets\Baby\Scripts\hold_item.cs" />
+     <Compile Include="Assets\Baby\Scripts\panel_drop.cs" />
+     <Compile Include="Assets\BabyAnimator.cs" />
+     <Compile Include="Assets\BannerScript.cs" />
+     <Compile Include="Assets\CameraSmoothFollow.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\Sample Supporting Emitters\DetonatorSprayHelper.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\Detonator.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorComponent.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSpray.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\DetonatorTest.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\TouchToMouse.cs" />
+     <Compile Include="Assets\Elementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Elementals\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\Extensions.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\MeshPiece.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\PrefabManager.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\PrefabPool.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\PrefabRule.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\RenderQueue.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\Settings.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\TerrainDisplayer.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\TerrainManager.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\TerrainPiece.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\TerrainPool.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\TerrainRule.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\TransformHelpers.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Core\Scripts\VertexGenerator.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Demos\Scripts\ChaseCamera.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Demos\Scripts\CoinPickup.cs" />
+     <Compile Include="Assets\Endless2DTerrain\Demos\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Game_Over_Control.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Common\IAdListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Common\IGoogleMobileAdsBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Common\IGoogleMobileAdsInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\Android\AdListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\Android\AndroidBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\Android\AndroidInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\iOS\IOSBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\iOS\IOSInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds_BAK\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\GUIBarScript.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\MoreButtonScript.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\MoveCameraScript.cs" />
+     <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera.cs" />
+     <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera_Boundaries.cs" />
+     <Compile Include="Assets\Moba_Camera\Scripts\Moba_Camera_Boundary.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoMovementLine.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoSwitchTarget.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoTarget.cs" />
+     <Compile Include="Assets\Moba_Camera\TestFiles\Scripts\DemoUI_Controls.cs" />
+     <Compile Include="Assets\OnDestroyPlayer.cs" />
+     <Compile Include="Assets\Options_Controller.cs" />
+     <Compile Include="Assets\ShowSkin.cs" />
+     <Compile Include="Assets\SoundFX_Slider.cs" />
+     <Compile Include="Assets\Spawner\Example\Script\RandomMover.cs" />
+     <Compile Include="Assets\Spawner\Scripts\InstanceManager.cs" />
+     <Compile Include="Assets\Spawner\Scripts\SpawnAI.cs" />
+     <Compile Include="Assets\Spawner\Scripts\SpawnEnums.cs" />
+     <Compile Include="Assets\Spawner\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Star_Controller.cs" />
+     <Compile Include="Assets\Steer2D\Examples\Assets\Target.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\10_TriggerInScene\GateScript.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\10_TriggerInScene\LiftDetect.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\10_TriggerInScene\PlayerMove.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\1_FirstCollision\script1.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\1_FirstCollision\script2.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\2_MultiCollisions\script21.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\3_BulletCollisions\GUIScore1.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\3_BulletCollisions\bulletScript1.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\3_BulletCollisions\gunScript1.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\3_BulletCollisions\planeScript1.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\4_BulletHowitzer\GUIScore.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\4_BulletHowitzer\bulletScript.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\4_BulletHowitzer\gunScript.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\4_BulletHowitzer\planeScript.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\5_PullRay\GUIScore2.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\5_PullRay\gunScript2.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\6_DroidArena\Droid.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\7_MultiDroidArena\Droid2.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\8_FirstTrigger\Cube1Script.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\8_FirstTrigger\Cube2Script.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\9_TriggerForGate\Cube11Script.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\9_TriggerForGate\Cube21Script.cs" />
+     <Compile Include="Assets\UnderstandBasicsOfCollisions\initScene.cs" />
+     <Compile Include="Assets\_MKGlowSystem\_Demo\Code\MK_DemoControl.cs" />
+     <Compile Include="Assets\_MKGlowSystem\_Demo\Code\MK_RotateObject.cs" />
+     <Compile Include="Assets\_scripts\bullet_collision.cs" />
+     <Compile Include="Assets\_scripts\hold_item.cs" />
+     <Compile Include="Assets\_scripts\init_game.cs" />
+     <Compile Include="Assets\_scripts\item_touch_drag.cs" />
+     <Compile Include="Assets\_scripts\panel_control.cs" />
+     <Compile Include="Assets\_scripts\panel_glow.cs" />
+     <Compile Include="Assets\_scripts\panel_trigger.cs" />
+     <Compile Include="Assets\_scripts\pbtb_game_controller.cs" />
+     <Compile Include="Assets\_scripts\touch_panel_controller.cs" />
+     <Compile Include="Assets\anim_control.cs" />
+     <Compile Include="Assets\audio_controller.cs" />
+     <Compile Include="Assets\baby_library.cs" />
+     <Compile Include="Assets\babyexit.cs" />
+     <Compile Include="Assets\babyhit.cs" />
+     <Compile Include="Assets\babyshuffle\scripts\Baby_Animator.cs" />
+     <Compile Include="Assets\babyshuffle\scripts\Baby_Control.cs" />
+     <Compile Include="Assets\babyshuffle\scripts\Baby_Spawner.cs" />
+     <Compile Include="Assets\babyshuffle\scripts\babyhit.cs" />
+     <Compile Include="Assets\ball_controller.cs" />
+     <Compile Include="Assets\btnExitClick.cs" />
+     <Compile Include="Assets\cd_text.cs" />
+     <Compile Include="Assets\circuit_controller.cs" />
+     <Compile Include="Assets\exittext.cs" />
+     <Compile Include="Assets\follow_panel.cs" />
+     <Compile Include="Assets\gameover.cs" />
+     <Compile Include="Assets\global_values.cs" />
+     <Compile Include="Assets\heartburst_control.cs" />
+     <Compile Include="Assets\init_game.cs" />
+     <Compile Include="Assets\itween_down.cs" />
+     <Compile Include="Assets\lvl1_portal.cs" />
+     <Compile Include="Assets\maze_library.cs" />
+     <Compile Include="Assets\move_level.cs" />
+     <Compile Include="Assets\move_obstacle1.cs" />
+     <Compile Include="Assets\move_player.cs" />
+     <Compile Include="Assets\movepanel.cs" />
+     <Compile Include="Assets\nav_controller.cs" />
+     <Compile Include="Assets\newGameClick.cs" />
+     <Compile Include="Assets\on_collide.cs" />
+     <Compile Include="Assets\options_settings.cs" />
+     <Compile Include="Assets\particle_controller.cs" />
+     <Compile Include="Assets\particle_explosion.cs" />
+     <Compile Include="Assets\pill_spawn.cs" />
+     <Compile Include="Assets\playparticle.cs" />
+     <Compile Include="Assets\playproject\_scripts\PlayerController.cs" />
+     <Compile Include="Assets\powerControl.cs" />
+     <Compile Include="Assets\powerup_controller.cs" />
+     <Compile Include="Assets\powerup_speedup.cs" />
+     <Compile Include="Assets\scoretext.cs" />
+     <Compile Include="Assets\setscore.cs" />
+     <Compile Include="Assets\slider_controller.cs" />
+     <Compile Include="Assets\slider_value.cs" />
+     <Compile Include="Assets\sound_explode.cs" />
+     <Compile Include="Assets\touch_grow.cs" />
+     <Compile Include="Assets\touch_grow_bottle.cs" />
+     <Compile Include="Assets\transport_effect.cs" />
+     <Compile Include="Assets\transporting.cs" />
+     <Compile Include="Assets\trigger_startpanel.cs" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-Diffuse.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Moba_Camera\Readme\readme.txt" />
+     <None Include="Assets\Plugins\Android\unityads\proguard-project.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-Glossy.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Glossy.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpRim.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-SoftEdgeUnlit.shader" />
+     <None Include="Assets\5MinuteGUI\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseRim.shader" />
+     <None Include="Assets\00_KY_FX pack2\prefab\01_shot\00_ReadMe.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-ParallaxSpec.shader" />
+     <None Include="Assets\Plugins\Android\unityads\build.xml" />
+     <None Include="Assets\Dark Future\ReadMe.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Unlit\MK_Unlit-TransparentCutout.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-ParallaxSpec.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Unlit\MK_Unlit-Transparent.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumped.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumpSpec.shader" />
+     <None Include="Assets\Spawner\README.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowBlur.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-AdditiveSoft.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-AdditiveMultiply.shader" />
+     <None Include="Assets\5MinuteGUI\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Diffuse.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumpSpec.shader" />
+     <None Include="Assets\00_KY_FX pack2\ReadMe.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumped.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-MulitplyDouble.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Additive.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseDetail.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-DiffuseBumped.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Toon\MK_Toon-Basic.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Glossy.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-ParallaxSpec.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-DiffuseBumped.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Glossy.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Lightmapped\MK_Lightmap-Diffuse.shader" />
+     <None Include="Assets\8 Bit Retro Rampage Free\Readme.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Toon\MK_Toon-BasicOutline.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\KY_magicEffectsFree\ReadMe.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Unlit\MK_Unlit-Normal.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Diffuse.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowFullScreenDownSample.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-PremultiplyBlend.shader" />
+     <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Blend.shader" />
+     <None Include="Assets\Elementals\!Readme.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowFastBlur.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-DiffuseBumped.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Parallax.shader" />
+     <None Include="Assets\GradientGUIBars\ReadMe\AboutFonts.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\UnderstandBasicsOfCollisions\readme.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Diffuse.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-Multiply.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-Parallax.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-Parallax.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseBumpRim.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumpSpec-1DirectionalLight.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Particles\MK_Particles-AdditiveBlend.shader" />
+     <None Include="Assets\Sci-Fi Music Pack\License.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-Diffuse.shader" />
+     <None Include="Assets\Endless2DTerrain\Demos\Resources\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Normal\MK_Normal-DiffuseRim.shader" />
+     <None Include="Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Illumin\MK_Illumin-ParallaxSpec.shader" />
+     <None Include="Assets\P4Connect\readme.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Transparent\MK_Transparent-Glossy.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-Diffuse.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowRender.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpedNoLight.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKGlowEffect\MKGlowCompose.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Cutout\MK_Cutout-DiffuseBumped.shader" />
+     <None Include="Assets\codeandweb.com\Readme.txt" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-Parallax.shader" />
+     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Mobile\MK_Mobile-DiffuseBumpSpec.shader" />
+     <None Include="Assets\_MKGlowSystem\_Shader\_MKBase\Reflective\MK_Reflective-DiffuseBumped.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="MKGlowSystem">
+ <HintPath>C:/Users/david/Documents/My Project/sample/Assets/_MKGlowSystem/_Internal/MKGlowSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{02FB1493-668A-342F-F0FB-826A55C91F5E}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
