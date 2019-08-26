@@ -303,6 +303,7 @@
     <Compile Include="Assets\babyshuffle\scripts\babyhit.cs" />
     <Compile Include="Assets\ball_controller.cs" />
     <Compile Include="Assets\BannerScript.cs" />
+    <Compile Include="Assets\btn_yes_gameover.cs" />
     <Compile Include="Assets\btnExitClick.cs" />
     <Compile Include="Assets\CameraSmoothFollow.cs" />
     <Compile Include="Assets\cd_text.cs" />
@@ -420,6 +421,7 @@
     <Compile Include="Assets\transport_effect.cs" />
     <Compile Include="Assets\transporting.cs" />
     <Compile Include="Assets\trigger_startpanel.cs" />
+    <Compile Include="Assets\UIManager.cs" />
     <Compile Include="Assets\UnderstandBasicsOfCollisions\1_FirstCollision\script1.cs" />
     <Compile Include="Assets\UnderstandBasicsOfCollisions\1_FirstCollision\script2.cs" />
     <Compile Include="Assets\UnderstandBasicsOfCollisions\10_TriggerInScene\GateScript.cs" />

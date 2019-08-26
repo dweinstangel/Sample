@@ -11,28 +11,27 @@ public class gameover : MonoBehaviour
 		// Use this for initialization
 		void Start ()
 		{
-				myAnimator = this.GetComponent<Animator> ();
+				/*myAnimator = this.GetComponent<Animator> ();
 				myAnimator.SetInteger ("change", Mathf.Abs (0));
-				myAnimator.enabled = false;
-		
+				myAnimator.enabled = false;*/
 		}
 	
 		// Update is called once per frame
 		void Update ()
 		{
-				if (gameend == true) {
+				/*if (gameend == true) {
 						if (isPlaying == false) {
 								myAnimator.SetInteger ("change", Mathf.Abs (1));
 								myAnimator.enabled = true;
 								isPlaying = true;
 						}
-				}
+				}*/
 		}
 		
 		public void stopPlaying ()
 		{
-				myAnimator.SetInteger ("change", Mathf.Abs (0));
-				myAnimator.enabled = false;
-				Time.timeScale = 0.0f;
+				/*myAnimator.SetInteger ("change", Mathf.Abs (0));
+				myAnimator.enabled = false;*/
+				//Time.timeScale = 0.0f;
 		}
 }
